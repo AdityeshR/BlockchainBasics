@@ -1,3 +1,4 @@
+
 # Blockchain Basics
 Project is about primarily experiencing and learning the basics of Blockchain and its fundamentals such as mining, proof of work, connecting nodes, transaction etc.
 Postman will help in accessing the Blockchain methods manually.<br />
@@ -5,7 +6,7 @@ Postman will help in accessing the Blockchain methods manually.<br />
 	GET - http://127.0.0.1:5001/get_chain<br />
 	GET - http://127.0.0.1:5001/is_valid<br />
 	GET - http://127.0.0.1:5001/replace_chain<br />
-	//API will look across the list of peers (nodes) added with http//...connect_node method in order to find the longest Blockchain and replace.
+		API will look across the list of peers (nodes) added with "http//...connect_node" method in order to find the longest Blockchain and replace.<br />
 	POST - http://127.0.0.1:5001/connect_node<br />
 		Body (Raw) - { "nodes": ["http://xx.xx.xx.xxx:5001",.... ] } //Replace the IP address of the node to be added in local network. Each node should run this this to keep the list of nodes updated.<br />
 	POST - http://127.0.0.1:5001/add_transaction<br />
