@@ -1,6 +1,6 @@
 
 # Blockchain Basics
-Project is about primarily experiencing and learning the basics of Blockchain and its fundamentals such as mining, proof of work, connecting nodes, transaction etc.
+Project is primarily about experiencing and learning the basics of Blockchain and its fundamentals such as mining, proof of work, connecting nodes, transaction etc.
 Postman will help in accessing the Blockchain methods manually.<br />
 	GET - http://127.0.0.1:5001/mine_block<br />
 	GET - http://127.0.0.1:5001/get_chain<br />
