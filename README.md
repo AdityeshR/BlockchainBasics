@@ -1,5 +1,5 @@
 # Blockchain Basics
-Project is about learning the basics of Blockchain and its fundamentals such as mining, proof of work, connecting nodes, transaction etc.
+Project is about primarily experiencing and learning the basics of Blockchain and its fundamentals such as mining, proof of work, connecting nodes, transaction etc.
 Postman will help in accessing the Blockchain methods manually.<br />
 	GET - http://127.0.0.1:5001/mine_block<br />
 	GET - http://127.0.0.1:5001/get_chain<br />
@@ -14,4 +14,4 @@ Postman will help in accessing the Blockchain methods manually.<br />
 Note:Remember this is about basics of Blockchain.It is a working instance of a Blockchain in its preliminary form over a network.Consensus algorithm finds the longest chain in network and replaces it on the node. 
      Current stage does not have Smart Contract in place as well no validation of account.
 
-//Download the exe and run on a Windows system.
+//Download the zipped file. It contains Exe file and Readme.Run exe on a windows system.
